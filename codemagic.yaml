@@ -3,7 +3,7 @@ workflows:
     name: Flutter build
     max_build_duration: 60
     environment:
-      flutter: 3.35.4   # ✅ locks Flutter version
+      flutter: 3.24.3 
       xcode: latest
     scripts:
       - name: Get dependencies
